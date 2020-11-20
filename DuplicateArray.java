@@ -1,3 +1,4 @@
+// this program is use check the duplicate array
 import java.util.*;
 public class DuplicateArray {
 
