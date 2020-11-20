@@ -1,4 +1,4 @@
-// this program is use check the duplicate array
+// this program is use check the duplicate array-addrajendra
 import java.util.*;
 public class DuplicateArray {
 
