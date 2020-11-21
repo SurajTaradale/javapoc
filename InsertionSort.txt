@@ -1,0 +1,23 @@
+import java.util.Arrays;
+
+public class Insertionsort {
+
+	public static void main(String[] args) {
+     int unsorted[] = new int[] {10,23,5,341,1,65,0,-1,-65};
+     System.out.println("This is based on insertion sorted");
+     System.out.println("Before sorting: "+Arrays.toString(unsorted));
+     for(int i=1; i<unsorted.length; ++i){
+    	int  current = unsorted[i];
+    	 int j = i;
+    	 
+    	 while(j>0 && unsorted[j-1]>current){
+    		 unsorted[j]= unsorted[j-1];
+    		 j--;
+    	 }
+    	 unsorted[j]=current;
+     
+     }
+     System.out.println("After sorting "+Arrays.toString(unsorted));
+	}
+
+}
